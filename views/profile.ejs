@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<title>(2FA)</title>
+</head>
+
+<body>
+	<%- include('loginedheader') %>
+	<main>
+		<div class="limiter " id="page-content">
+			<div class="container">
+				<div class="row container d-flex justify-content-center">
+					<div class="col-xl-6 col-md-12">
+						<div class="card user-card-full">
+							<div class="row m-l-0 m-r-0">
+								<div class="col-sm-4 d-flex align-items-center justify-content-center user-profile">
+									<div class="card-block text-center text-dark">
+										<div class="m-b-25"> <img src="https://img.icons8.com/bubbles/100/000000/user.png" class="img-radius" alt="User-Profile-Image"> </div>
+										<h6 class="f-w-600">Hembo Tingor</h6>
+										<p>Web Designer</p> <i class=" mdi mdi-square-edit-outline feather icon-edit m-t-10 f-16"></i>
+									</div>
+								</div>
+								<div class="col-sm-8">
+									<div class="card-block">
+										<h6 class="m-b-20 p-b-5 b-b-default font-weight-bold text-center">Information</h6>
+										<div class="row">
+											<div class="col-sm-6">
+												<p class="m-b-10 f-w-600">Email</p>
+												<h6 class="text-muted f-w-400"><%= userData.login %> </h6>
+											</div>
+											<div class="col-sm-6">
+												<p class="m-b-10 f-w-600">Phone</p>
+												<h6 class="text-muted f-w-400"><%= userData.phone %> </h6>
+											</div>
+										</div>
+										<h6 class="m-b-20 m-t-40 p-b-5 b-b-default f-w-600">Projects</h6>
+										<div class="row">
+											<div class="col-sm-6">
+												<p class="m-b-10 f-w-600">Recent</p>
+												<h6 class="text-muted f-w-400">Sam Disuja</h6>
+											</div>
+											<div class="col-sm-6">
+												<p class="m-b-10 f-w-600">Most Viewed</p>
+												<h6 class="text-muted f-w-400">Dinoter husainm</h6>
+											</div>
+										</div>
+										<ul class="social-link list-unstyled m-t-40 m-b-10">
+											<li><a href="#!" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="facebook" data-abc="true"><i class="mdi mdi-facebook feather icon-facebook facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#!" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="twitter" data-abc="true"><i class="mdi mdi-twitter feather icon-twitter twitter" aria-hidden="true"></i></a></li>
+											<li><a href="#!" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="instagram" data-abc="true"><i class="mdi mdi-instagram feather icon-instagram instagram" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="bg-dark text-light">
+		<div class="container">
+			<div class="row pt-5 pb-2">
+				<div class="col-lg-6">
+					<h2>Subscribe</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
+						adipisicing
+						elit.</p>
+				</div>
+				<div class="col-lg-6">
+					<form>
+						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+						<button type="button" class="btn btn-info btn-block mt-1">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Optional JavaScript; choose one of the two! -->
+
+	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+		integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+		crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

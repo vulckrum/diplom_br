@@ -1,0 +1,31 @@
+html{
+  height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+header{
+  flex: 0 0 auto;
+}
+main{
+  flex: 1 0 auto;
+  position: relative;
+}
+footer{
+  flex: 0 0 auto;
+}
+.limiter{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+.forms{
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px -5px rgba(211, 211, 211, 0.6);
+}
+.input100{
+  width: 260px;
+}
